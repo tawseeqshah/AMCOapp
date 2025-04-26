@@ -1,0 +1,102 @@
+{
+    "version": "1.0",
+    "duration": 2500,
+    "backgroundColor": "#00457C",
+    "elements": [
+      {
+        "type": "image",
+        "id": "logo",
+        "source": "/assets/logo.png",
+        "initial": {
+          "opacity": 0,
+          "scale": 0.5,
+          "x": 0,
+          "y": 0
+        },
+        "animations": [
+          {
+            "property": "opacity",
+            "from": 0,
+            "to": 1,
+            "delay": 0,
+            "duration": 1000,
+            "easing": "easeOutQuad"
+          },
+          {
+            "property": "scale",
+            "from": 0.5,
+            "to": 1.0,
+            "delay": 200,
+            "duration": 800,
+            "easing": "easeOutBack"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "text": "AMCO Automobiles Pvt. Ltd.",
+        "style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "color": "#FFFFFF"
+        },
+        "initial": {
+          "opacity": 0,
+          "y": 50
+        },
+        "animations": [
+          {
+            "property": "opacity",
+            "from": 0,
+            "to": 1,
+            "delay": 1000,
+            "duration": 500,
+            "easing": "easeOutQuad"
+          },
+          {
+            "property": "y",
+            "from": 50,
+            "to": 0,
+            "delay": 1000,
+            "duration": 500,
+            "easing": "easeOutQuad"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "text": "Authorized Dealer of Ashok Leyland",
+        "style": {
+          "fontFamily": "Arial, sans-serif",
+          "fontSize": 16,
+          "color": "#FFFFFF"
+        },
+        "initial": {
+          "opacity": 0,
+          "y": 30
+        },
+        "animations": [
+          {
+            "property": "opacity",
+            "from": 0,
+            "to": 1,
+            "delay": 1200,
+            "duration": 500,
+            "easing": "easeOutQuad"
+          },
+          {
+            "property": "y",
+            "from": 30,
+            "to": 0,
+            "delay": 1200,
+            "duration": 500,
+            "easing": "easeOutQuad"
+          }
+        ]
+      }
+    ]
+  }
+  
